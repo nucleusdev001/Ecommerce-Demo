@@ -1,0 +1,161 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  box-shadow: 0px 2px 8px rgb(160, 159, 159);
+  display: inline-block;
+  width: 100%;
+  padding: 10px 40px 5px 30px;
+}
+
+.menu {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu .logo {
+  font-size: 30px;
+  margin: 10px 10px 0px 20px;
+  font-weight: 900;
+}
+
+.menu .sub-menu {
+  font-weight: 700;
+}
+
+
+.input-field {
+  display: inline-block;
+}
+input {
+  background-color: rgb(236, 236, 236);
+  color: black;
+  font-weight: 700;
+  border: none;
+  padding: 15px 10px 15px 50px;
+  margin-bottom: 5px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.input-field i {
+  position: absolute;
+  margin: 15px;
+}
+
+.profile {
+  display: inline-block;
+}
+
+.cart-icon {
+  font-size: 30px;
+  display: relative;
+  margin-left: 100px;
+}
+.user-icon {
+  font-size: 40px;
+  margin-left: 20px;
+}
+.cart-qty {
+  position: absolute;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin: -15px 0 0 -15px;
+}
+
+@media(max-width: 1300px)
+{
+    .cart-icon {
+      margin-left: 50px;
+    } 
+}
+
+
+@media(max-width: 1250px)
+{
+    #input 
+    {
+        width: 400px;
+    }
+}
+
+@media(max-width: 1150px)
+{
+  #input
+  {
+      width: 350px;
+  }
+  .menu {
+    margin-right: 10px;
+  }
+  .menu .logo {
+    font-size: 23px;
+  }
+}
+
+@media(max-width: 1090px)
+{
+    #input
+    {
+        width: 250px;
+    }
+}
+
+@media(max-width: 900px)
+{
+    .input-field
+    {
+        display: none;
+    }
+    .cart-icon {
+      font-size: 28px;
+      margin-left: 0px;
+    }
+    .user-icon {
+      font-size: 38px;
+      margin-left: 20px;
+    }
+    .cart-qty {
+      padding: 4px 7px;
+      border-radius: 50%;
+      margin: -15px 0 0 -15px;
+    }
+}
+@media (max-width: 550px) {
+  .menu .logo {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .menu .sub-menu {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .cart-icon {
+    font-size: 22px;
+    margin-left: 0px;
+  }
+  .user-icon {
+    font-size: 22px;
+    margin-left: 1px;
+  }
+  .cart-qty {
+    padding: 2px 4px;
+    margin: -15px 0 -5px -10px;
+  }
+  .profile {
+    width: 60px;
+    padding-top: 10px;
+  }
+}
+
+
